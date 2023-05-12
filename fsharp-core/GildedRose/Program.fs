@@ -42,7 +42,7 @@ type GildedRose(items:IList<Item>) =
                             if name <> "Sulfuras, Hand of Ragnaros" then
                                 Items.[i] <- { Items.[i] with Quality   = (Items.[i].Quality  - 1) } 
                     else
-                        Items.[i] <- { Items.[i] with Quality   = (Items.[i].Quality  - Items.[i].Quality) } 
+                        Items.[i] <- { Items.[i] with Quality   = 0 } 
                 else
                     if Items.[i].Quality < 50 then
                         Items.[i] <- { Items.[i] with Quality   = (Items.[i].Quality + 1) }  
