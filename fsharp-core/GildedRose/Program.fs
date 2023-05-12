@@ -6,13 +6,21 @@ type Item = { Name: string; SellIn: int; Quality: int }
 
 type GildedRose(items:IList<Item>) =
     let Items = items
-
+    let decreaseMultiplier name =
+        if name = "Conjured Item" then
+            2
+        else
+        1
+            
     member this.UpdateQuality() =
         for i = 0 to Items.Count - 1 do
+            
+            let multiplier = decreaseMultiplier Items.[i].Name
+            
             if Items.[i].Name <> "Aged Brie" && Items.[i].Name <> "Backstage passes to a TAFKAL80ETC concert" then
                 if Items.[i].Quality > 0 then
                     if Items.[i].Name <> "Sulfuras, Hand of Ragnaros" then
-                        Items.[i] <- { Items.[i] with Quality = (Items.[i].Quality - 1) } 
+                        Items.[i] <- { Items.[i] with Quality = (Items.[i].Quality - 1 * multiplier) } 
             else
                if Items.[i].Quality < 50 then
                     Items.[i] <- { Items.[i] with Quality = (Items.[i].Quality + 1) } 
@@ -53,6 +61,7 @@ module Program =
         Items.Add({Name = "Backstage passes to a TAFKAL80ETC concert"; SellIn = 10; Quality = 49})
         Items.Add({Name = "Backstage passes to a TAFKAL80ETC concert"; SellIn = 5; Quality = 49})
         Items.Add({Name = "Conjured Mana Cake"; SellIn = 3; Quality = 6})
+        Items.Add({Name = "Conjured Item"; SellIn = 10; Quality = 20})
 
         let app = new GildedRose(Items)
         for i = 0 to 30 do
