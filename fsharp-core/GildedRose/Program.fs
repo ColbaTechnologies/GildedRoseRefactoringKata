@@ -15,29 +15,31 @@ type GildedRose(items:IList<Item>) =
     member this.UpdateQuality() =
         for i = 0 to Items.Count - 1 do
             
-            let multiplier = decreaseMultiplier Items.[i].Name
+            let myItem = Items.[i]
+            let (name, sellIn, quality) = (myItem.Name, myItem.SellIn, myItem.Quality)
+            let multiplier = decreaseMultiplier name
             
-            if Items.[i].Name <> "Aged Brie" && Items.[i].Name <> "Backstage passes to a TAFKAL80ETC concert" then
+            if name <> "Aged Brie" && name <> "Backstage passes to a TAFKAL80ETC concert" then
                 if Items.[i].Quality > 0 then
-                    if Items.[i].Name <> "Sulfuras, Hand of Ragnaros" then
+                    if name <> "Sulfuras, Hand of Ragnaros" then
                         Items.[i] <- { Items.[i] with Quality = (Items.[i].Quality - 1 * multiplier) } 
             else
                if Items.[i].Quality < 50 then
                     Items.[i] <- { Items.[i] with Quality = (Items.[i].Quality + 1) } 
-                    if Items.[i].Name = "Backstage passes to a TAFKAL80ETC concert" then
+                    if name = "Backstage passes to a TAFKAL80ETC concert" then
                         if Items.[i].SellIn < 11 then
                             if Items.[i].Quality < 50 then
                                 Items.[i] <- { Items.[i] with Quality = (Items.[i].Quality + 1) } 
                         if Items.[i].SellIn < 6 then
                             if Items.[i].Quality < 50 then
                                 Items.[i] <- { Items.[i] with Quality = (Items.[i].Quality + 1) } 
-            if Items.[i].Name <> "Sulfuras, Hand of Ragnaros" then                 
+            if name <> "Sulfuras, Hand of Ragnaros" then                 
                 Items.[i] <- { Items.[i] with SellIn  = (Items.[i].SellIn - 1) } 
             if Items.[i].SellIn < 0 then
-                if Items.[i].Name <> "Aged Brie" then
-                    if Items.[i].Name <> "Backstage passes to a TAFKAL80ETC concert" then
+                if name <> "Aged Brie" then
+                    if name <> "Backstage passes to a TAFKAL80ETC concert" then
                         if Items.[i].Quality > 0 then
-                            if Items.[i].Name <> "Sulfuras, Hand of Ragnaros" then
+                            if name <> "Sulfuras, Hand of Ragnaros" then
                                 Items.[i] <- { Items.[i] with Quality   = (Items.[i].Quality  - 1) } 
                     else
                         Items.[i] <- { Items.[i] with Quality   = (Items.[i].Quality  - Items.[i].Quality) } 
