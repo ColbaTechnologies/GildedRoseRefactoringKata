@@ -10,6 +10,9 @@
     <Content Include="GildedRoseTest.ApprovalTest.ThirtyDays.received.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="GildedRoseTest.ApprovalTest.ThirtyDaysConjured.received.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Compile Include="Tests.fs" />
   </ItemGroup>
 
