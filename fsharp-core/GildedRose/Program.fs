@@ -2,7 +2,13 @@
 
 open System.Collections.Generic
 
+// TODO: since the refactoring of Items.[i].Quality and SellIn is not working, I think the next best thing to do is
+// to create the name groups and simplify the algorithm further.
+// Then we can analyze what the real issue is with the refactor.
+
+
 type Item = { Name: string; SellIn: int; Quality: int }
+
 
 type GildedRose(items:IList<Item>) =
     let Items = items
