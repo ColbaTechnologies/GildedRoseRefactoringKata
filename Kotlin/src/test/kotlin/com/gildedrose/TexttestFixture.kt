@@ -17,7 +17,7 @@ fun main(args: Array<String>) {
 
     val app = GildedRose(items)
 
-    var days = 2
+    var days = 15
     if (args.size > 0) {
         days = Integer.parseInt(args[0]) + 1
     }

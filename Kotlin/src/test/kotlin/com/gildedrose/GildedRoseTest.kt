@@ -85,7 +85,7 @@ internal class GildedRoseTest {
         val items = listOf(Item("Sulfuras, Hand of Ragnaros", 10, 50))
         val app = GildedRose(items)
         app.updateQuality()
-        assertEquals(50, app.items[0].quality)
+        assertEquals(80, app.items[0].quality)
         assertEquals(10, app.items[0].sellIn)
     }
 
