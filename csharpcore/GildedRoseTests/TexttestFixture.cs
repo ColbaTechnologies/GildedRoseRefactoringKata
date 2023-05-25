@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using GildedRose;
 
-namespace csharp
+namespace GildedRoseTests
 {
-    public class Program
+    public static class TexttestFixture
     {
         public static void Main(string[] args)
         {
@@ -33,20 +34,25 @@ namespace csharp
                     SellIn = 5,
                     Quality = 49
                 },
-				// this conjured item does not work properly yet
-				new Item {Name = "Conjured Mana Cake", SellIn = 3, Quality = 6}
+                // this conjured item does not work properly yet
+                new Item {Name = "Conjured Mana Cake", SellIn = 3, Quality = 6}
             };
 
-            var app = new GildedRose(Items);
+            var app = new GildedRose.GildedRose(Items);
 
+            int days = 31;
+            if (args.Length > 0)
+            {
+                days = int.Parse(args[0]) + 1;
+            }
 
-            for (var i = 0; i < 31; i++)
+            for (var i = 0; i < days; i++)
             {
                 Console.WriteLine("-------- day " + i + " --------");
                 Console.WriteLine("name, sellIn, quality");
-                for (var j = 0; j < Items.Count; j++)
+                foreach (var item in app.Items)
                 {
-                    System.Console.WriteLine(Items[j]);
+                    System.Console.WriteLine(item.Name + ", " + item.SellIn + ", " + item.Quality);
                 }
                 Console.WriteLine("");
                 app.UpdateQuality();
