@@ -1,0 +1,373 @@
+﻿OMGHAI!
+-------- day 0 --------
+name, sellIn, quality
++5 Dexterity Vest, 10, 20
+Aged Brie, 2, 0
+Elixir of the Mongoose, 5, 7
+Sulfuras, Hand of Ragnaros, 0, 80
+Sulfuras, Hand of Ragnaros, -1, 80
+Backstage passes to a TAFKAL80ETC concert, 15, 20
+Backstage passes to a TAFKAL80ETC concert, 10, 49
+Backstage passes to a TAFKAL80ETC concert, 5, 49
+Conjured Mana Cake, 3, 6
+
+-------- day 1 --------
+name, sellIn, quality
++5 Dexterity Vest, 9, 19
+Aged Brie, 1, 1
+Elixir of the Mongoose, 4, 6
+Sulfuras, Hand of Ragnaros, -1, 80
+Sulfuras, Hand of Ragnaros, -2, 80
+Backstage passes to a TAFKAL80ETC concert, 14, 21
+Backstage passes to a TAFKAL80ETC concert, 9, 51
+Backstage passes to a TAFKAL80ETC concert, 4, 52
+Conjured Mana Cake, 2, 4
+
+-------- day 2 --------
+name, sellIn, quality
++5 Dexterity Vest, 8, 18
+Aged Brie, 0, 2
+Elixir of the Mongoose, 3, 5
+Sulfuras, Hand of Ragnaros, -2, 80
+Sulfuras, Hand of Ragnaros, -3, 80
+Backstage passes to a TAFKAL80ETC concert, 13, 22
+Backstage passes to a TAFKAL80ETC concert, 8, 53
+Backstage passes to a TAFKAL80ETC concert, 3, 55
+Conjured Mana Cake, 1, 2
+
+-------- day 3 --------
+name, sellIn, quality
++5 Dexterity Vest, 7, 17
+Aged Brie, -1, 4
+Elixir of the Mongoose, 2, 4
+Sulfuras, Hand of Ragnaros, -3, 80
+Sulfuras, Hand of Ragnaros, -4, 80
+Backstage passes to a TAFKAL80ETC concert, 12, 23
+Backstage passes to a TAFKAL80ETC concert, 7, 55
+Backstage passes to a TAFKAL80ETC concert, 2, 58
+Conjured Mana Cake, 0, 0
+
+-------- day 4 --------
+name, sellIn, quality
++5 Dexterity Vest, 6, 16
+Aged Brie, -2, 6
+Elixir of the Mongoose, 1, 3
+Sulfuras, Hand of Ragnaros, -4, 80
+Sulfuras, Hand of Ragnaros, -5, 80
+Backstage passes to a TAFKAL80ETC concert, 11, 24
+Backstage passes to a TAFKAL80ETC concert, 6, 57
+Backstage passes to a TAFKAL80ETC concert, 1, 61
+Conjured Mana Cake, -1, -4
+
+-------- day 5 --------
+name, sellIn, quality
++5 Dexterity Vest, 5, 15
+Aged Brie, -3, 8
+Elixir of the Mongoose, 0, 2
+Sulfuras, Hand of Ragnaros, -5, 80
+Sulfuras, Hand of Ragnaros, -6, 80
+Backstage passes to a TAFKAL80ETC concert, 10, 26
+Backstage passes to a TAFKAL80ETC concert, 5, 60
+Backstage passes to a TAFKAL80ETC concert, 0, 0
+Conjured Mana Cake, -2, -8
+
+-------- day 6 --------
+name, sellIn, quality
++5 Dexterity Vest, 4, 14
+Aged Brie, -4, 10
+Elixir of the Mongoose, -1, 0
+Sulfuras, Hand of Ragnaros, -6, 80
+Sulfuras, Hand of Ragnaros, -7, 80
+Backstage passes to a TAFKAL80ETC concert, 9, 28
+Backstage passes to a TAFKAL80ETC concert, 4, 63
+Backstage passes to a TAFKAL80ETC concert, -1, 0
+Conjured Mana Cake, -3, -12
+
+-------- day 7 --------
+name, sellIn, quality
++5 Dexterity Vest, 3, 13
+Aged Brie, -5, 12
+Elixir of the Mongoose, -2, -2
+Sulfuras, Hand of Ragnaros, -7, 80
+Sulfuras, Hand of Ragnaros, -8, 80
+Backstage passes to a TAFKAL80ETC concert, 8, 30
+Backstage passes to a TAFKAL80ETC concert, 3, 66
+Backstage passes to a TAFKAL80ETC concert, -2, 0
+Conjured Mana Cake, -4, -16
+
+-------- day 8 --------
+name, sellIn, quality
++5 Dexterity Vest, 2, 12
+Aged Brie, -6, 14
+Elixir of the Mongoose, -3, -4
+Sulfuras, Hand of Ragnaros, -8, 80
+Sulfuras, Hand of Ragnaros, -9, 80
+Backstage passes to a TAFKAL80ETC concert, 7, 32
+Backstage passes to a TAFKAL80ETC concert, 2, 69
+Backstage passes to a TAFKAL80ETC concert, -3, 0
+Conjured Mana Cake, -5, -20
+
+-------- day 9 --------
+name, sellIn, quality
++5 Dexterity Vest, 1, 11
+Aged Brie, -7, 16
+Elixir of the Mongoose, -4, -6
+Sulfuras, Hand of Ragnaros, -9, 80
+Sulfuras, Hand of Ragnaros, -10, 80
+Backstage passes to a TAFKAL80ETC concert, 6, 34
+Backstage passes to a TAFKAL80ETC concert, 1, 72
+Backstage passes to a TAFKAL80ETC concert, -4, 0
+Conjured Mana Cake, -6, -24
+
+-------- day 10 --------
+name, sellIn, quality
++5 Dexterity Vest, 0, 10
+Aged Brie, -8, 18
+Elixir of the Mongoose, -5, -8
+Sulfuras, Hand of Ragnaros, -10, 80
+Sulfuras, Hand of Ragnaros, -11, 80
+Backstage passes to a TAFKAL80ETC concert, 5, 37
+Backstage passes to a TAFKAL80ETC concert, 0, 0
+Backstage passes to a TAFKAL80ETC concert, -5, 0
+Conjured Mana Cake, -7, -28
+
+-------- day 11 --------
+name, sellIn, quality
++5 Dexterity Vest, -1, 8
+Aged Brie, -9, 20
+Elixir of the Mongoose, -6, -10
+Sulfuras, Hand of Ragnaros, -11, 80
+Sulfuras, Hand of Ragnaros, -12, 80
+Backstage passes to a TAFKAL80ETC concert, 4, 40
+Backstage passes to a TAFKAL80ETC concert, -1, 0
+Backstage passes to a TAFKAL80ETC concert, -6, 0
+Conjured Mana Cake, -8, -32
+
+-------- day 12 --------
+name, sellIn, quality
++5 Dexterity Vest, -2, 6
+Aged Brie, -10, 22
+Elixir of the Mongoose, -7, -12
+Sulfuras, Hand of Ragnaros, -12, 80
+Sulfuras, Hand of Ragnaros, -13, 80
+Backstage passes to a TAFKAL80ETC concert, 3, 43
+Backstage passes to a TAFKAL80ETC concert, -2, 0
+Backstage passes to a TAFKAL80ETC concert, -7, 0
+Conjured Mana Cake, -9, -36
+
+-------- day 13 --------
+name, sellIn, quality
++5 Dexterity Vest, -3, 4
+Aged Brie, -11, 24
+Elixir of the Mongoose, -8, -14
+Sulfuras, Hand of Ragnaros, -13, 80
+Sulfuras, Hand of Ragnaros, -14, 80
+Backstage passes to a TAFKAL80ETC concert, 2, 46
+Backstage passes to a TAFKAL80ETC concert, -3, 0
+Backstage passes to a TAFKAL80ETC concert, -8, 0
+Conjured Mana Cake, -10, -40
+
+-------- day 14 --------
+name, sellIn, quality
++5 Dexterity Vest, -4, 2
+Aged Brie, -12, 26
+Elixir of the Mongoose, -9, -16
+Sulfuras, Hand of Ragnaros, -14, 80
+Sulfuras, Hand of Ragnaros, -15, 80
+Backstage passes to a TAFKAL80ETC concert, 1, 49
+Backstage passes to a TAFKAL80ETC concert, -4, 0
+Backstage passes to a TAFKAL80ETC concert, -9, 0
+Conjured Mana Cake, -11, -44
+
+-------- day 15 --------
+name, sellIn, quality
++5 Dexterity Vest, -5, 0
+Aged Brie, -13, 28
+Elixir of the Mongoose, -10, -18
+Sulfuras, Hand of Ragnaros, -15, 80
+Sulfuras, Hand of Ragnaros, -16, 80
+Backstage passes to a TAFKAL80ETC concert, 0, 0
+Backstage passes to a TAFKAL80ETC concert, -5, 0
+Backstage passes to a TAFKAL80ETC concert, -10, 0
+Conjured Mana Cake, -12, -48
+
+-------- day 16 --------
+name, sellIn, quality
++5 Dexterity Vest, -6, -2
+Aged Brie, -14, 30
+Elixir of the Mongoose, -11, -20
+Sulfuras, Hand of Ragnaros, -16, 80
+Sulfuras, Hand of Ragnaros, -17, 80
+Backstage passes to a TAFKAL80ETC concert, -1, 0
+Backstage passes to a TAFKAL80ETC concert, -6, 0
+Backstage passes to a TAFKAL80ETC concert, -11, 0
+Conjured Mana Cake, -13, -52
+
+-------- day 17 --------
+name, sellIn, quality
++5 Dexterity Vest, -7, -4
+Aged Brie, -15, 32
+Elixir of the Mongoose, -12, -22
+Sulfuras, Hand of Ragnaros, -17, 80
+Sulfuras, Hand of Ragnaros, -18, 80
+Backstage passes to a TAFKAL80ETC concert, -2, 0
+Backstage passes to a TAFKAL80ETC concert, -7, 0
+Backstage passes to a TAFKAL80ETC concert, -12, 0
+Conjured Mana Cake, -14, -56
+
+-------- day 18 --------
+name, sellIn, quality
++5 Dexterity Vest, -8, -6
+Aged Brie, -16, 34
+Elixir of the Mongoose, -13, -24
+Sulfuras, Hand of Ragnaros, -18, 80
+Sulfuras, Hand of Ragnaros, -19, 80
+Backstage passes to a TAFKAL80ETC concert, -3, 0
+Backstage passes to a TAFKAL80ETC concert, -8, 0
+Backstage passes to a TAFKAL80ETC concert, -13, 0
+Conjured Mana Cake, -15, -60
+
+-------- day 19 --------
+name, sellIn, quality
++5 Dexterity Vest, -9, -8
+Aged Brie, -17, 36
+Elixir of the Mongoose, -14, -26
+Sulfuras, Hand of Ragnaros, -19, 80
+Sulfuras, Hand of Ragnaros, -20, 80
+Backstage passes to a TAFKAL80ETC concert, -4, 0
+Backstage passes to a TAFKAL80ETC concert, -9, 0
+Backstage passes to a TAFKAL80ETC concert, -14, 0
+Conjured Mana Cake, -16, -64
+
+-------- day 20 --------
+name, sellIn, quality
++5 Dexterity Vest, -10, -10
+Aged Brie, -18, 38
+Elixir of the Mongoose, -15, -28
+Sulfuras, Hand of Ragnaros, -20, 80
+Sulfuras, Hand of Ragnaros, -21, 80
+Backstage passes to a TAFKAL80ETC concert, -5, 0
+Backstage passes to a TAFKAL80ETC concert, -10, 0
+Backstage passes to a TAFKAL80ETC concert, -15, 0
+Conjured Mana Cake, -17, -68
+
+-------- day 21 --------
+name, sellIn, quality
++5 Dexterity Vest, -11, -12
+Aged Brie, -19, 40
+Elixir of the Mongoose, -16, -30
+Sulfuras, Hand of Ragnaros, -21, 80
+Sulfuras, Hand of Ragnaros, -22, 80
+Backstage passes to a TAFKAL80ETC concert, -6, 0
+Backstage passes to a TAFKAL80ETC concert, -11, 0
+Backstage passes to a TAFKAL80ETC concert, -16, 0
+Conjured Mana Cake, -18, -72
+
+-------- day 22 --------
+name, sellIn, quality
++5 Dexterity Vest, -12, -14
+Aged Brie, -20, 42
+Elixir of the Mongoose, -17, -32
+Sulfuras, Hand of Ragnaros, -22, 80
+Sulfuras, Hand of Ragnaros, -23, 80
+Backstage passes to a TAFKAL80ETC concert, -7, 0
+Backstage passes to a TAFKAL80ETC concert, -12, 0
+Backstage passes to a TAFKAL80ETC concert, -17, 0
+Conjured Mana Cake, -19, -76
+
+-------- day 23 --------
+name, sellIn, quality
++5 Dexterity Vest, -13, -16
+Aged Brie, -21, 44
+Elixir of the Mongoose, -18, -34
+Sulfuras, Hand of Ragnaros, -23, 80
+Sulfuras, Hand of Ragnaros, -24, 80
+Backstage passes to a TAFKAL80ETC concert, -8, 0
+Backstage passes to a TAFKAL80ETC concert, -13, 0
+Backstage passes to a TAFKAL80ETC concert, -18, 0
+Conjured Mana Cake, -20, -80
+
+-------- day 24 --------
+name, sellIn, quality
++5 Dexterity Vest, -14, -18
+Aged Brie, -22, 46
+Elixir of the Mongoose, -19, -36
+Sulfuras, Hand of Ragnaros, -24, 80
+Sulfuras, Hand of Ragnaros, -25, 80
+Backstage passes to a TAFKAL80ETC concert, -9, 0
+Backstage passes to a TAFKAL80ETC concert, -14, 0
+Backstage passes to a TAFKAL80ETC concert, -19, 0
+Conjured Mana Cake, -21, -84
+
+-------- day 25 --------
+name, sellIn, quality
++5 Dexterity Vest, -15, -20
+Aged Brie, -23, 48
+Elixir of the Mongoose, -20, -38
+Sulfuras, Hand of Ragnaros, -25, 80
+Sulfuras, Hand of Ragnaros, -26, 80
+Backstage passes to a TAFKAL80ETC concert, -10, 0
+Backstage passes to a TAFKAL80ETC concert, -15, 0
+Backstage passes to a TAFKAL80ETC concert, -20, 0
+Conjured Mana Cake, -22, -88
+
+-------- day 26 --------
+name, sellIn, quality
++5 Dexterity Vest, -16, -22
+Aged Brie, -24, 50
+Elixir of the Mongoose, -21, -40
+Sulfuras, Hand of Ragnaros, -26, 80
+Sulfuras, Hand of Ragnaros, -27, 80
+Backstage passes to a TAFKAL80ETC concert, -11, 0
+Backstage passes to a TAFKAL80ETC concert, -16, 0
+Backstage passes to a TAFKAL80ETC concert, -21, 0
+Conjured Mana Cake, -23, -92
+
+-------- day 27 --------
+name, sellIn, quality
++5 Dexterity Vest, -17, -24
+Aged Brie, -25, 52
+Elixir of the Mongoose, -22, -42
+Sulfuras, Hand of Ragnaros, -27, 80
+Sulfuras, Hand of Ragnaros, -28, 80
+Backstage passes to a TAFKAL80ETC concert, -12, 0
+Backstage passes to a TAFKAL80ETC concert, -17, 0
+Backstage passes to a TAFKAL80ETC concert, -22, 0
+Conjured Mana Cake, -24, -96
+
+-------- day 28 --------
+name, sellIn, quality
++5 Dexterity Vest, -18, -26
+Aged Brie, -26, 52
+Elixir of the Mongoose, -23, -44
+Sulfuras, Hand of Ragnaros, -28, 80
+Sulfuras, Hand of Ragnaros, -29, 80
+Backstage passes to a TAFKAL80ETC concert, -13, 0
+Backstage passes to a TAFKAL80ETC concert, -18, 0
+Backstage passes to a TAFKAL80ETC concert, -23, 0
+Conjured Mana Cake, -25, -100
+
+-------- day 29 --------
+name, sellIn, quality
++5 Dexterity Vest, -19, -28
+Aged Brie, -27, 52
+Elixir of the Mongoose, -24, -46
+Sulfuras, Hand of Ragnaros, -29, 80
+Sulfuras, Hand of Ragnaros, -30, 80
+Backstage passes to a TAFKAL80ETC concert, -14, 0
+Backstage passes to a TAFKAL80ETC concert, -19, 0
+Backstage passes to a TAFKAL80ETC concert, -24, 0
+Conjured Mana Cake, -26, -104
+
+-------- day 30 --------
+name, sellIn, quality
++5 Dexterity Vest, -20, -30
+Aged Brie, -28, 52
+Elixir of the Mongoose, -25, -48
+Sulfuras, Hand of Ragnaros, -30, 80
+Sulfuras, Hand of Ragnaros, -31, 80
+Backstage passes to a TAFKAL80ETC concert, -15, 0
+Backstage passes to a TAFKAL80ETC concert, -20, 0
+Backstage passes to a TAFKAL80ETC concert, -25, 0
+Conjured Mana Cake, -27, -108
+
