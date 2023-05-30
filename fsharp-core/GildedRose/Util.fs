@@ -20,11 +20,20 @@ module GildedRose.Util
         else        
             None    
     
-    let calculate item: Item =
-        let calculator =
+    let group item =
+        let g =
             match item.Name with
-            | Aged n -> Types.Aged :> ICalculator
-            | Backstage n -> Types.Backstage :> ICalculator
-            | Sulfuras n -> Types.Sulfuras :> ICalculator
-            | _ -> Types.Other :> ICalculator
-        calculator    
+            | Aged n -> Aged
+            | Backstage n -> Backstage
+            | Sulfuras n -> Sulfuras
+            | _ -> Other
+        g
+        
+    let calculator item =
+        let c =
+            match group item with
+            | Groups.Aged -> AgedCalculator.Instance :> ICalculator
+            | Groups.Backstage -> BackstageCalculator.Instance
+            | Groups.Sulfuras -> SulfurasCalculator.Instance
+            | _ -> OtherCalculator.Instance
+        c    
